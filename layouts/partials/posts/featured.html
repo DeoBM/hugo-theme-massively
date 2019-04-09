@@ -3,11 +3,11 @@
 {{ range .firstpost }}
 <article class="post featured">
     <header class="major">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Description }}</p>
         {{ if not .Date.IsZero }}
         <span class="date">{{ .Date.Format (.Site.Params.DateFormat | default "January 2, 2006") }}</span>
         {{ end }}
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <p>{{ .Description }}</p>
     </header>
     {{ if .Params.image }}
     <a href="{{ .Permalink }}" class="image main"><img src="{{ .Params.image | relURL }}" alt="" /></a>

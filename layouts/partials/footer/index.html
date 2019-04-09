@@ -23,7 +23,7 @@
     </section>
     {{ end }}
     <section class="split contact">
-        {{ with $data.contactinfo.address }}
+        <!-- {{ with $data.contactinfo.address }}
         <section class="alt">
             <h3>{{ i18n "CONTACT_ADDRESS" . }}</h3>
             <p>
@@ -38,7 +38,7 @@
             <h3>{{ i18n "CONTACT_PHONE" . }}</h3>
             <p><a href="tel:{{ . }}">{{ . }}</a></p>
         </section>
-        {{ end }}
+        {{ end }} -->
         {{ with $data.contactinfo.email }}
         <section>
             <h3>{{ i18n "CONTACT_EMAIL" . }}</h3>

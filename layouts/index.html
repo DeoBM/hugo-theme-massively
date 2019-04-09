@@ -1,7 +1,7 @@
 {{ partial "htmlhead" . }}
-	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-loading">
+	<body lang='{{ .Site.Language.Lang | default "ko" }}' class="is-loading">
 
-		{{ $postsFoldername := .Site.Params.Posts.foldername | default "post" }}
+		{{ $postsFoldername := .Site.Params.Posts.foldername | default "posts" }}
 		{{ $postsPageSize := .Site.Params.Posts.pagesize | default 6 }}
 		{{ $postsFeaturedPost := .Site.Params.Posts.featuredpost | default "true" }}
 

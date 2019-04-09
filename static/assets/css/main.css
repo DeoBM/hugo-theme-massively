@@ -15,6 +15,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
+		font-family: 'Nanum Gothic';
 		vertical-align: baseline;
 	}
 
@@ -1705,7 +1706,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Nanum Gothic';
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -2725,6 +2726,7 @@
 
 		header > p {
 			font-style: italic;
+			font-family: 'Nanum Gothic';
 		}
 
 		header > h1 + p {
